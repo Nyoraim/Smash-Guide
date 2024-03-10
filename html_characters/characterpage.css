@@ -13,6 +13,8 @@ h1 {
     margin: auto;
     text-align: center;
     margin-top: 0.4em;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 h2 { 
@@ -24,6 +26,8 @@ h2 {
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 7px; 
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 h3 { 
@@ -32,12 +36,16 @@ h3 {
     margin: 0.9em;
     margin-top: 1em;
     margin-bottom: 1em;  
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 p {
     font-family: "Montserrat", sans-serif;
     font-size: 1em;
     margin: 1.5em;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .panorama {
@@ -92,7 +100,8 @@ p.bottom-page {
 
     .ban-list img,
     .recommended-list img {
-        margin: 0;
+        margin: 10px;
+        
     }
 
     .ban-list figcaption, 
