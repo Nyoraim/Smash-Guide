@@ -44,6 +44,14 @@ a {
     margin-bottom: 1em;
 }
 
+.credits {
+    font-size: 0.6em;
+    margin-top: 10em;
+}
+
+.credits a {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1200px) {
     .panorama{ 
