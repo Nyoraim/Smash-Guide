@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    color: white;
   }
 
 .panorama {
@@ -25,17 +26,15 @@ p {
 }
 
 body {
-    background: #d7d7eb;
+    background: #2b2a2e;
 }
 
 a {
     text-decoration: none;
 }
 
-.character-list img {
-    width: 63px;
-}
-
-.last-line {
-    text-align: center;
+.character-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
