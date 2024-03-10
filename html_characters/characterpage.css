@@ -60,8 +60,6 @@ p {
 
 .ban-list, .recommended-list {
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
 }
 
 .ban-list figcaption {
