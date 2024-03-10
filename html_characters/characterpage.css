@@ -85,21 +85,19 @@ p.bottom-page {
 
 @media screen and (max-width: 1200px) {
 
-    .ban-list {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+    .ban-list,
     .recommended-list {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .ban-list figcaption {
-        text-align: center;
-        margin-bottom: 20px;
+    .ban-list img,
+    .recommended-list img {
+        margin: 0;
     }
 
+    .ban-list figcaption, 
     .recommended-list figcaption {
         text-align: center;
         margin-bottom: 20px;
