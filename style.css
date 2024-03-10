@@ -37,4 +37,11 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap:15px;
+}
+
+.stages {
+    margin-bottom: 1em;
 }
