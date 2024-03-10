@@ -77,3 +77,16 @@ p {
 figcaption {
     font-family: "Montserrat", sans-serif;
 }
+
+@media screen and (max-width: 1200px) {
+
+    .ban-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .recommended-list {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
