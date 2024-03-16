@@ -111,3 +111,18 @@ p.bottom-page {
         border-bottom-right-radius: 15px;
     }
 }
+
+@media screen and (min-width: 1600px) {
+    .ban-list,
+    .recommended-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    p, h1, h2, h3 {
+        margin-left: 75px;
+        margin-right: 75px;
+    }
+}
+    
